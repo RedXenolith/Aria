@@ -27,9 +27,9 @@ struct ContentView: View {
                 Text("Ingresa")
             })
                 .padding()
-                .background(.black)
+                .background(.red)
                 .foregroundColor(.white)
-                .cornerRadius(20)
+                .cornerRadius(18)
             
         }
         .padding()
