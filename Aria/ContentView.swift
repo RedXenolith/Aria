@@ -29,7 +29,7 @@ struct ContentView: View {
                 .padding()
                 .background(.black)
                 .foregroundColor(.white)
-                .cornerRadius(19)
+                .cornerRadius(20)
             
         }
         .padding()
