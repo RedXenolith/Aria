@@ -23,6 +23,13 @@ struct ContentView: View {
                 .padding()
             TextField("Introduce tu coreo", text: $email)
                 .padding()
+            Button(action: {print("Funciona")}, label: {
+                Text("Ingresa")
+            })
+                .padding()
+                .background(.red)
+                .foregroundColor(.white)
+                .cornerRadius(19)
             
         }
         .padding()
